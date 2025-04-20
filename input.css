@@ -1,0 +1,127 @@
+.frame23-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.frame23-frame23 {
+  width: 380px;
+  height: 385px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background-color: rgba(237, 211, 246, 1);
+}
+ 
+.frame23-frame8button {
+  gap: 10px;
+  left: 60px;
+  width: 250px;
+  bottom: 31px;
+  height: 68px;
+  display: flex;
+  padding: 11px 24px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 15px;
+  justify-content: center;
+  background-color: rgba(148, 93, 232, 0.3700000047683716);
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
+ 
+.frame23-text1 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "ABeeZee";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.frame23-text2 {
+  top: 44px;
+  left: 48px;
+  color: rgba(255, 255, 255, 1);
+  width: 265px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.frame23-frame5input {
+  gap: 10px;
+  top: 110px;
+  left: 58px;
+  color: rgba(0, 0, 0, 0.5600000023841858);
+  width: 253px;
+  height: 51px;
+  display: flex;
+  padding: 11px 24px;
+  position: absolute;
+  font-size: 16px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: ABeeZee;
+  font-weight: 400;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.frame23-frame9input {
+  gap: 10px;
+  top: 200px;
+  left: 56px;
+  color: rgba(0, 0, 0, 0.5600000023841858);
+  width: 256px;
+  height: 51px;
+  display: flex;
+  padding: 11px 24px;
+  position: absolute;
+  font-size: 15px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: ABeeZee;
+  font-weight: 400;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.frame23-button {
+  top: 16px;
+  left: 12px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  background-color: transparent; /* Удаляем фон кнопки */
+  border: none; /* Удаляем рамку кнопки */
+  cursor: pointer; /* Добавляем курсор для кнопки */
+}
+
+.frame23-frame25button {
+  width: 100%; /* Изображение занимает всю ширину кнопки */
+  height: 100%; /* Изображение занимает всю высоту кнопки */
+  object-fit: cover; /* Изображение масштабируется по размеру кнопки */
+}

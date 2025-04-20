@@ -1,0 +1,164 @@
+.frame2-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.frame2-frame2 {
+  width: 330px;
+  height: 540px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background-color: rgba(237, 211, 246, 1);
+  border: 3px solid #C680FF;
+}
+ 
+.frame2-frame8button {
+  gap: 10px;
+  top: 439px;
+  left: 33px;
+  width: 266px;
+  height: 51px;
+  display: flex;
+  padding: 11px 24px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 15px;
+  justify-content: center;
+  background-color: rgba(148, 93, 232, 0.3700000047683716);
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
+ 
+.frame2-text1 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.frame2-text2 {
+  top: 19px;
+  left: 31px;
+  color: rgb(255, 255, 255);
+  width: 265px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: "Arial";
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.frame2-frame4input {
+  gap: 10px;
+  top: 104px;
+  left: 33px;
+  color: rgba(0, 0, 0, 0.5600000023841858);
+  width: 266px;
+  height: 51px;
+  display: flex;
+  padding: 11px 24px;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: "Inter";
+  font-weight: 400;
+  padding-left: 11px 24px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.frame2-frame5input {
+  gap: 10px;
+  top: 175px;
+  left: 32px;
+  color: rgba(0, 0, 0, 0.5600000023841858);
+  width: 266px;
+  height: 51px;
+  display: flex;
+  padding: 11px 24px;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: "Inter";
+  font-weight: 400;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.frame2-frame6input {
+  gap: 10px;
+  top: 255px;
+  left: 31px;
+  color: rgba(0, 0, 0, 0.5600000023841858);
+  width: 266px;
+  height: 51px;
+  display: flex;
+  padding: 11px 24px;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: "Inter";
+  font-weight: 400;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.frame2-frame9input {
+  gap: 10px;
+  top: 335px;
+  left: 33px;
+  color: rgba(0, 0, 0, 0.5600000023841858);
+  width: 266px;
+  height: 51px;
+  display: flex;
+  padding: 11px 24px;
+  position: absolute;
+  font-size: 12px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: "Inter";
+  font-weight: 400;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.frame2-frame25button {
+  top: 5px;
+  left: 5px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  background-image: url('public1/external/frame25button4224-15zc.svg');
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+}
